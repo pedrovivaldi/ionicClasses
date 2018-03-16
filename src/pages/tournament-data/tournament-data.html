@@ -1,0 +1,16 @@
+<ion-header>
+
+    <ion-navbar>
+      <ion-title></ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+
+<ion-tabs>
+    <ion-tab [root]="teamsDataRoot" tabTitle="Teams" tabIcon="information-circle" 
+    [rootParams]="tournament"></ion-tab>
+    <ion-tab [root]="gamesDataRoot" tabTitle="Games" tabIcon="information-circle" 
+    [rootParams]="tournament"></ion-tab>
+    <ion-tab [root]="standingDataRoot" tabTitle="Standings" tabIcon="information-circle" 
+    [rootParams]="tournament"></ion-tab>
+</ion-tabs>
